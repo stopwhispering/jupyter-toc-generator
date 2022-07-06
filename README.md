@@ -6,8 +6,12 @@ Alternatively, copy the generated table of contents to clipboard.
 * Requires Python 3.7 or higher. Therefore, compatible with AWS Sagemaker.
 
 
-## Usage
+## Usage Options
 ```
+    generate_toc /home/user/notebook.ipynb [options]
+    generate_toc "C:\My Files\My Notebook.ipynb" [options]
+    generate_toc --help
+
     python generate_toc /home/user/notebook.ipynb [options]
     python generate_toc "C:\My Files\My Notebook.ipynb" [options]
     python generate_toc --help
