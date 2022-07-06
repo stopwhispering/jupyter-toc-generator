@@ -5,6 +5,10 @@ Alternatively, copy the generated table of contents to clipboard.
 * No third party dependencies except Pyperclip if using --clipboard option.
 * Requires Python 3.7 or higher. Therefore, compatible with AWS Sagemaker.
 
+## Installation
+```
+    pip install jupyter-toc-generator
+```
 
 ## Usage Options
 ```
